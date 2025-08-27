@@ -7,6 +7,10 @@ body,
   height: 100%;
 }
 
+body {
+  background-color:darkseagreen;
+}
+
 .logo {
   height: 6em;
   padding: 1.5em;

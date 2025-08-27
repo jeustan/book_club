@@ -15,14 +15,20 @@ const books = [
 
 function App() {
   return (
-    <>
-      <div className='w-full text-center text-xl lg:text-6xl py-2'>
-        <h1>Leah & Justin Book Club</h1>
-      </div>
       <div className='flex flex-wrap mx-auto px-4'>
-        {books}
+        <div className='flex items-center justify-center w-full py-2 pt-12'>
+          <div className='text-center text-xl lg:text-6xl'>
+            <h1>Leah & Justin Book Club</h1>
+          </div>
+          <div className='pl-2'>
+            <BookIcon />
+          </div>
+        </div>
+
+        <div className='flex flex-wrap w-full pt-4 justify-center'>
+          {books}
+        </div>
       </div>
-    </>
   )
 }
 
