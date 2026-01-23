@@ -8,7 +8,8 @@ const books = [
   'october-country', 
   'cooking-gene', 
   'eight-years',
-  'dog-stars'
+  'dog-stars',
+  'jekyll'
 ].map((book, index) => (
   <Book title={book} />
 ));
